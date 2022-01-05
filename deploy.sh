@@ -5,11 +5,11 @@ cd /home/debian/simpleexpressserver
 git pull
 
 # Build the image with the new changes
-docker build . -t simpleexpressserver
+sudo docker build . -t simpleexpressserver
 
 # Shut down the existing containers
-docker-compose down
+sudo docker-compose down
 
 # Start the new containers
-docker-compose up -d
+sudo docker-compose up -d
 echo "Deployed!"
