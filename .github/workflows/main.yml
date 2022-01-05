@@ -24,4 +24,6 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.SSH_PORT }}
-          script: sudo sh ~/simpleexpressserver/deploy.sh
+          run: | 
+            cd simpleexpressserver
+            sudo sh deploy.sh
