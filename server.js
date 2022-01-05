@@ -8,7 +8,7 @@ const HOST = '0.0.0.0';
 const app = express();
 app.get('/', (_, res) => {
     res.send({
-        message: "it's on my VPS",
+        message: "it's on my VPS, et c'est deployé tout seul !",
     });
 });
 
