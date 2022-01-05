@@ -1,4 +1,6 @@
 echo "Deploying changes..."
+
+cd ~/simpleexpressserver
 # Pull changes from the live branch
 git pull
 
