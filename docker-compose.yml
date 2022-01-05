@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  simpleexpressserver: # name of the service
+    image: simpleexpressserver # the image to use
+    container_name: simpleexpressserver # what to label the container for docker ps
+    ports:
+      - "8080:8080"
+    restart: unless-stopped # restart if failed, until we stop it ourselves
