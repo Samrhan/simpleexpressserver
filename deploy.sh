@@ -1,6 +1,6 @@
 echo "Deploying changes..."
 
-cd ~/simpleexpressserver
+cd /home/debian/simpleexpressserver
 # Pull changes from the live branch
 git pull
 
